@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--import all p5js libraries-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.dom.min.js"></script>
+
+    <!--tensorflowjs-->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>tensorflowjs teach numbers</title>
+</head>
+<body>
+    <div id="mainBox">    
+        <!--left-->
+        <div id="sketch-holder">
+
+        </div>
+
+
+        <!--right-->
+        <div id="rightBox">
+
+            <div id="top">
+                <img id="imgData">
+
+                <div style="display: grid; grid-template-rows: 20% 20% 20% 20% 20%; grid-area: buttons;">
+                    <button id="startMnistTraining">Start Mnist Training</button>
+                    <button id="startMnistTesting">load example</button>
+                    <button id="btnPredict">Predict</button>
+                    <button id="btnClearCanvas">Clear Canvas</button>
+                </div>
+                
+            </div>
+
+
+            <div id="info-holder">
+                <p id="info-text"></p>
+            </div>      
+
+        </div>
+    </div>
+    
+    <script src="cout.js"></script>
+    <script src="mnist/dist/mnist.js"></script>
+    <script src="nn.js"></script>
+    <script src="sketch.js"></script>
+</body>
+</html>
