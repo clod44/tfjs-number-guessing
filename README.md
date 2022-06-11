@@ -4,7 +4,7 @@
  ## depencies
  - tfjs
  - p5js
- - [cazala's mnist library](https://github.com/cazala/mnist) (local)
+ - [cazala's mnist library](https://github.com/cazala/mnist)
  
  ## links
  - [video(youtube)](https://youtu.be/kw6w2QdhvfU)
@@ -19,3 +19,5 @@ I was expecting this to work much better with higher accuracy. due to my knowled
 the number 4 in mnist data set is written like 7segment display 4s. it took me longer than expected to realize this.
 
 refreshing the page while the page zoom is not default may break the canvas. zoom after refreshing the page if necessary.
+
+css in this project is worse than usual. 
